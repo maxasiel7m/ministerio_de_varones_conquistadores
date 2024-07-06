@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1500px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+nav{
+    background-color: #D32131;
+    display: flex;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+header{
+    background-color: #D32131;
+}
+
+#encabezado{
+    font-size: 30px;
+    padding: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header a{
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    align-items: center;
+    font-size: 18px;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header a:hover{
+    color: grey;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo_general{
+    background-color: black;
+}
+
+#logo_conquistadores{
+    background-color: black;
+    margin: auto;
+    width: 60%;
+}
+
+#tema{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    )
+    ,url("varon_creado.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+}
+
+#tema h1{
+    font-size: 40px;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img{
+    display: block;
+}
+
+#presentacion{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    background-color: #D32131;
+}
+
+#presentacion a{
+    font-size: 30px;
+    padding: 20px 50px;
+    color: black;
+    text-decoration: none;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#presentacion a:hover{
+    color: grey;
+}
+
+#texto_base{
+    padding: 40px, 50px;
+    background-color: black;
+}
+
+#texto_base h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 30px;
+    padding: 20px;
+}
+
+#texto_base p{
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 30px;
+    font-style: normal;
+    padding-bottom: 30px;
+    padding: 20px;
+}
+
+#versiculos{
+    background-color: #C08537;
+}
+
+#versiculos h2{
+    font-size: 40px;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px;
+}
+
+#versiculos p{
+    font-size:26px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 30px;
+    font-style: normal;
+    padding: 20px;
+}
+
+#alabanzas{
+    background-color: #C08537;
+    padding: 15px;
+}
+
+#alabanzas h2{
+    font-size: 40px;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 15px;
+}
+
+#alabanzas iframe{
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+#redes_sociales{
+    background-color: #C08537;
+    padding: 15px;
+}
+
+#qr_a_grupo_whats_conquistadores{
+    width: 60%;
+    padding: 15px;
+    margin: auto;
+}
+
+#redes_sociales h2{
+    font-size: 40px;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 15px;
+}
+
+#redes_sociales p{
+    font-size: 24px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 30px;
+    font-style: normal;
+    padding: 15px;
+    font-weight: 5px;
+}
+
+#whats{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: #33ff33;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#face{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: blue;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#youtube{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 45px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: red;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#insta{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    background-color: beige;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.color-tri-ins{color: #ffb700;}
+.color-tri-tag{color: #ff0045;}
+.color-tri-ram{color: #f700ff;}
+
+footer{
+    background-color: #C08537;
+}
+
+body{
+    background-color: #C08537;
+}
