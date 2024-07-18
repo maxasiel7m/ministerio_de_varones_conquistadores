@@ -139,19 +139,8 @@ ol{
     background-color: rgb(180, 0, 0);
 }
 
-#dia_20{
-    background-color: rgb(28, 80, 176);
-}
-
 #dias_presenciales{
     background-color: rgb(180, 0, 0);
-    width: 50px;
-    height: 20px;
-    border-color: black;
-}
-
-#dias_virtuales{
-    background-color: rgb(28, 80, 176);
     width: 50px;
     height: 20px;
     border-color: black;
