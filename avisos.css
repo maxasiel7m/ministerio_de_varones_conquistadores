@@ -132,10 +132,10 @@ ol{
 
 #dia_1{
 
-    grid-column-start: 2;
+    grid-column-start: 5;
 }
 
-#dia_6{
+#dia_3{
     background-color: rgb(180, 0, 0);
 }
 
